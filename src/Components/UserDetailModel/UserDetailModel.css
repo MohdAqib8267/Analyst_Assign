@@ -1,0 +1,41 @@
+.company{
+    display: flex;
+    
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.user-info{
+    
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+.container{
+    display: flex;
+    padding: 0.5rem;
+    /* justify-content: space-between; */
+
+}
+.left{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    /* align-items: center; */
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.8rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 2rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}

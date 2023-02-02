@@ -1,0 +1,9 @@
+.UserLists{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--inputColor);
+    border-radius: 0.5rem;
+}
+

@@ -1,0 +1,47 @@
+.UserInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--inputColor);
+    /* width: 65rem; */
+}
+
+.contact-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+}
+.username{
+    font-size: 1.4rem;
+    color: var(--caloryCard);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Table-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Table{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    
+}
+td{
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
